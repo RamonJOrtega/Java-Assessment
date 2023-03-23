@@ -4,10 +4,6 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.Predicate;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.function.Predicate;
 
 /**
  * The following mock program passes on our development machines,
