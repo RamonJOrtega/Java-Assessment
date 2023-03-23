@@ -13,7 +13,4 @@ public class Bug1SolutionTest {
         Integer rating = bug1Solution.rating();
         assertNull(rating, "Expected default rating to be null");
     }
-
-   
-    
 }

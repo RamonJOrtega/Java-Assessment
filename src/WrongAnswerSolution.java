@@ -1,11 +1,11 @@
 package src;
 
-public class WrongAnswer {
+public class WrongAnswerSolution {
 
     private int counter = 0;
 
     public static void main(String[] args) {
-        new WrongAnswer().run();
+        new WrongAnswerSolution().run();
     }
 
     private void run() {
@@ -29,7 +29,7 @@ public class WrongAnswer {
         }
     }
 
-    private void doSomeFakeWork() {
+    private synchronized void doSomeFakeWork() {
         counter++;
     }
 
